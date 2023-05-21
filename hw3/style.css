@@ -92,6 +92,53 @@ a {
   padding-left: 32px;
 }
 
+.box {
+  padding-top: 234px;
+  padding-bottom: 234px;
+  background-color: #000915;
+  display: flex;
+  gap: 135px;
+}
+.box__items {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.box__items_title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.box__items_text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.box__items_button {
+  width: 234.06px;
+  height: 48.6px;
+  left: 0px;
+  top: 187px;
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #FFFFFF;
+}
+.box__img {
+  height: 333px;
+}
+
 @media (max-width: 376px) {
   .center {
     padding-left: 16px;
@@ -170,5 +217,58 @@ a {
     color: white;
     padding-top: 236px;
     padding-left: 32px;
+  }
+  .box {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    background-color: #000915;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .box__items {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box__items_title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    display: flex;
+  }
+  .box__items_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+    align-items: center;
+    text-align: center;
+  }
+  .box__items_button {
+    width: 234.06px;
+    height: 48.6px;
+    left: 0px;
+    top: 187px;
+    background: #9C0332;
+    border-radius: 30px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .box__img {
+    height: 236px;
   }
 }/*# sourceMappingURL=style.css.map */
