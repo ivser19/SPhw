@@ -56,6 +56,11 @@
         justify-content: space-around;
         color: #FFFFFF;
         }
+        &__button:hover {
+            cursor: url(img/cursor.svg), pointer;
+            border: 3px solid #44D2FF;
+            border-radius: 18px;
+        }
     }
     
     
@@ -98,6 +103,12 @@
         color: white;
         padding-top: 236px;
         padding-left: 32px;
+        }
+
+        &__game_link:hover {
+            cursor: url(img/cursor.svg), pointer;
+            border: 3px solid #44D2FF;
+            border-radius: 18px;
         }
     }
 
